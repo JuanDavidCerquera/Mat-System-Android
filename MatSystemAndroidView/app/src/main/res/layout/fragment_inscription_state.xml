@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".FragmentCourse">
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos de inscripción"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+
+    <TextView
+        android:id="@+id/textViewFichaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ficha" />
+
+    <EditText
+        android:id="@+id/editTextFicha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="321455"
+        android:inputType="number"
+        android:enabled="false"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewProgramaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programa de formación" />
+
+    <EditText
+        android:id="@+id/editTextPrograma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analisis y Desarrollo de St"
+        android:enabled="false"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewNivelLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nivel" />
+
+    <EditText
+        android:id="@+id/editTextNivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tecnologo"
+        android:enabled="false"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewRegionalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regional" />
+
+    <EditText
+        android:id="@+id/editTextRegional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regional Huila"
+        android:enabled="false"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewCentroLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Centro de formación" />
+
+    <EditText
+        android:id="@+id/editTextCentro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Centro de industria Empr"
+        android:enabled="false"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewModalidadLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modalidad de Formación" />
+
+    <EditText
+        android:id="@+id/editTextModalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Centro de industria Empr"
+        android:enabled="false"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewDepartamentoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Departamento/Municipio" />
+
+    <EditText
+        android:id="@+id/editTextDepartamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Huila/Neiva"
+        android:enabled="false"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewEstadoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado" />
+
+    <EditText
+        android:id="@+id/editTextEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Matriculado"
+        android:enabled="false"
+        android:layout_marginBottom="16dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
